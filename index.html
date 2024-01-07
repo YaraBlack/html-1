@@ -8,13 +8,16 @@
   <body>
     <main>
       <h1>CatPhotoApp</h1>
-      <section>
+      <nav>
+        This is navigation block. Here you can see <a href="#cat-photos">Cat Photos</a>, <a href="#cat-lists">Cat Lists</a> and <a href="#cat-form">Cat Form</a>.
+      </nav>
+      <section id="cat-photos">
         <h2>Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
         <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
-      <section>
+      <section id="cat-lists">
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
@@ -37,7 +40,7 @@
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
         </figure>
       </section>
-      <section>
+      <section id="cat-form">
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
@@ -55,6 +58,41 @@
           <button type="submit">Submit</button>
         </form>
       </section>
+      <div id="table-div">
+        <table>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+          </tr>
+          <tr>
+            <th>Item 1</th>
+            <th>Item 2</th>
+          </tr>
+        </table>
+      </div>
+      <div id="details-div">
+        <details>
+          <summary>This is summary.</summary>
+          This is a text inside details.
+        </details>
+      </div>
+      <div id="select-div">
+        <select name="select" id="sel">
+          <option value="option-1">Option 1</option>
+          <option value="option-2">Option 2</option>
+          <option value="option-3">Option 3</option>
+        </select>
+      </div>
+      <div>
+        <optgroup label="Optgroup 1">
+          <option value="option-group-1">Option 1</option>
+          <option value="option-group-2">Option 2</option>
+        </optgroup>
+        <optgroup label="Optgroup 2">
+          <option value="option-group-1">Option 3</option>
+          <option value="option-group-2">Option 4</option>
+        </optgroup>
+      </div>
     </main>
     <footer>
       <p>
